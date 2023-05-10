@@ -1,0 +1,300 @@
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+.col-xl-12{
+    width: 100%;
+    flex: none;
+}
+.col-xl-11{
+    width: 91.66%;
+    flex: none;
+}
+.col-xl-10{
+    width: 83.33%;
+    flex: none;
+}
+.col-xl-9{
+    width: 75%;
+    flex: none;
+}
+.col-xl-8{
+    width: 66.66%;
+    flex: none;
+}
+.col-xl-7{
+    width: 58.333%;
+    flex: none;
+}
+    
+.col-xl-6{
+    width: 50%;
+    flex: none;
+}
+.col-xl-5{
+    width: 41.66%;
+    flex: none;
+}
+.col-xl-4{
+    width: 33.33%;
+    flex: none;
+}
+.col-xl-3{
+    width: 25%;
+    flex: none;
+}
+.col-xl-2{
+    width: 16.66%;
+    flex: none;
+}
+.col-xl-1{
+    width: 8.333%;
+    flex: none;
+}
+.text-center{
+    text-align: center;
+}
+
+.bg_fondo {
+    min-height: 100vh;
+    background-image: url(../img/low_poly_banner_design_1711.jpg);
+    
+}
+.bg-1{
+    background-color: white;
+}
+.bg-2{
+    background-color: rgba(12, 194, 201, 0.5);
+    min-height: 42%;
+}
+
+.text-top{
+    margin-top: 30%;
+}
+.imagen{
+    padding-top: 40%;
+    border-radius: 5px;
+
+}
+
+.logo{
+    padding-left: 40%;
+    padding-top: 4%;
+}
+.bienvenido{
+    padding-left: 31%;
+    padding-top: 3%;
+}
+
+.input1{
+    padding-left: 15%;
+    padding-top: 8%;
+}
+
+.usuario{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 18%;
+    border-radius: 5px;
+    margin-left: 4%;
+}
+.contraseña{
+    margin-top: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 5px;
+    padding-right: 18%;
+    margin-left: 4%;
+}
+.botonlogin{
+    background: rgb(16, 209, 183);
+    border-radius: 5px;
+    padding-right: 14%;
+    padding-left: 14%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+.recordarcontraseña{
+    margin-top: 3%;
+}
+.imagencc{
+    margin-left: 35%;
+    padding-top: 3%;
+}
+.version{
+    margin-left: 22%;
+}
+
+/*lo de abajo es para la segunda plantilla del inventario*/
+
+.fondoplantilla2{
+    background-image: url(../img/3409297.jpg);
+
+}  
+
+/**/
+
+.logoplantilla2{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 10%;
+    border-radius: 40%;
+}
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+
+h1 {
+  color: hsla(0, 0%, 0%, .9);
+  font: normal 140px Varela Round, sans-serif;
+  height: 140px;
+  left: 0;
+  letter-spacing: 20px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  animation: move linear 4000ms infinite; 
+}
+
+@keyframes move {
+  0% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  25% {    
+    text-shadow:      
+      -4px -4px 0 hsla(180, 100%, 50%, 1), 
+      -3px -3px 0 hsla(180, 100%, 50%, 1), 
+      -2px -2px 0 hsla(180, 100%, 50%, 1), 
+      -1px -1px 0 hsla(180, 100%, 50%, 1),
+      4px 4px 0 hsla(0, 100%, 50%, 1), 
+      3px 3px 0 hsla(0, 100%, 50%, 1), 
+      2px 2px 0 hsla(0, 100%, 50%, 1), 
+      1px 1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  50% {
+    text-shadow:
+      -4px 4px 0 hsla(0, 100%, 50%, 1), 
+      -3px 3px 0 hsla(0, 100%, 50%, 1), 
+      -2px 2px 0 hsla(0, 100%, 50%, 1), 
+      -1px 1px 0 hsla(0, 100%, 50%, 1),
+      4px -4px 0 hsla(180, 100%, 50%, 1), 
+      3px -3px 0 hsla(180, 100%, 50%, 1), 
+      2px -2px 0 hsla(180, 100%, 50%, 1), 
+      1px -1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 hsla(180, 100%, 50%, 1), 
+      3px 3px 0 hsla(180, 100%, 50%, 1), 
+      2px 2px 0 hsla(180, 100%, 50%, 1), 
+      1px 1px 0 hsla(180, 100%, 50%, 1),
+      -4px -4px 0 hsla(0, 100%, 50%, 1), 
+      -3px -3px 0 hsla(0, 100%, 50%, 1), 
+      -2px -2px 0 hsla(0, 100%, 50%, 1), 
+      -1px -1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }  
+}
+/**/
+
+.columna2{
+    background-color: rgb(13, 103, 206);
+    border-radius: 1rem;
+    margin-top: 2%;
+    margin-left: 3%;
+    width: 35%;
+    margin-bottom: 20%;
+    
+}
+
+form{
+    display: inline-block;
+}
+.alinearlogotitulo{
+    display: flex;
+}
+
+.menucategoria{
+    background-color: rgb(20, 214, 182);
+    margin-left: 12%;
+    margin-top: 5%;
+    border-radius: 1rem;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+    padding-right: 10%;
+    cursor: pointer;
+}
+
+.opciones{
+    background-color: rgb(21, 118, 209);
+}
+
+.atributos{
+    margin-left: 26%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    border-radius: 1rem;
+}
+.separarinputs{
+    margin-top: 3%;
+}
+
+.ingresardatos{
+    margin-left: 32.5%;
+    margin-top: 3%;
+    margin-bottom: 5%; 
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+.buscadorconsulta{
+    margin-left: 30%;
+    margin-top: 45%;
+    padding-left: 8%;
+    padding-bottom: 5%;
+    padding-right: 8%;
+    text-align: center;
+    align-items: center;
+
+}
+
+.busqueda{
+margin-left: 42.5%;
+margin-top: 4%;
+border-radius: 5px;
+}
+
+
+
+
+

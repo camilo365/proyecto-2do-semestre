@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css')}}">
+    <title>Proyecto de final</title>
+</head>
+<body class = "fondoplantilla2">
+    <div class="row">
+        <div>
+            <div class = "alinearlogotitulo">
+                <img class="logoplantilla2" src="{{ url_for('static', filename='img/Captura.PNG')}}" alt="" width="10%">
+                <h1>INVENTARIO CAMILO</h1>
+            <div/>
+        </div>
+    </div>
+    <div class = "row">
+        <div class="col-xl-6 columna2">
+            <form action = "/ingresar" method="post">
+                <select class ="menucategoria " name="menu">
+                    <option class = "opciones "value="" disabled selected>Selecciona la categoria del producto</option>
+                    <option class = "opciones " value="opcion1">Carne,Pollo,Pescado</option>
+                    <option class = "opciones "value="opcion2">Granos y Abarrotes</option>
+                    <option class = "opciones "value="opcion3">Frutas y Verduras</option>
+                    <option class = "opciones "value="opcion4">Licores</option>
+                    <option class = "opciones "value="opcion5">Aseo y Hogar</option>
+                    <option class = "opciones "value="opcion6">Huevos y Derivados Lacteos</option>
+                    <option class = "opciones "value="opcion7">Reposteria</option>
+                    <option class = "opciones "value="opcion8">Cuidado Personal y Belleza</option>
+                </select>
+                    <input class="text-center atributos separarinputs" type="text" name="nombre" placeholder="Nombre">
+                    <input class="text-center atributos separarinputs" type="text" name="cantidad" placeholder="Cantidad"> 
+                    <input class="text-center atributos separarinputs" type="text" name="procedencia" placeholder="Procedencia"> 
+                    <input class="text-center atributos separarinputs" type="text" name="codigo" placeholder="Codigo">
+                    <input class="text-center atributos separarinputs" type="text" name="lote" placeholder="lote">
+                    <input class="ingresardatos"type="submit" value="INGRESAR DATOS"> 
+            </form>
+        </div>
+        <div class = "col-xl-6 columna2">
+            <form action = "/consulta" method = "post">
+                <input class="buscadorconsulta" type="text" name="validacion" placeholder="Consulta de productos">
+                <input class="busqueda"type="submit" value="CONSULTAR DATOS">
+            <form/>
+        <div/> 
+    <div/>  
+</body>
+</html>

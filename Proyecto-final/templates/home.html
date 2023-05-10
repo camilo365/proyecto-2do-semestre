@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css')}}">
+    <title>Proyecto de final</title>
+</head>
+<body>
+    <div class="row bg_fondo"> 
+        <div class="col-xl-4">
+            <img class="imagen" src="{{ url_for('static', filename='img/inventario 2.jpg')}}" alt="" height="60%">
+        </div>
+        <div>
+            <div class="bg-3">
+                <h2 class="text-center">INVENTARIO CAMILO</h2>
+            </div>
+        <div class="bg-2 col-xl-12">
+            <h2 class="bienvenido">BIENVENIDO</h2>
+            <img class="logo" src="{{ url_for('static', filename='img/descarga.jpg')}}" alt="logo" width="18%" >
+            <div class="input1">
+                <form action="/login" method="post">
+                    <input class="usuario" type="text" name="usuario" placeholder="username" required><br>
+                    <input class="contraseña" type="password" name="contrasena" placeholder="password" required>
+                    <div class="recordar contraseña">
+                        <input type="radio" name="recordar" value="contrasena"> recordar contraseña <br>
+                    </div>
+                    <input class="botonlogin" type="submit" value="LOGIN">     
+    
+                </form>
+            </div>
+            <div>
+                <img class="imagencc" src="{{ url_for('static', filename='img/Captura.PNG')}}" alt="" width="25%">
+                <h4 class="version">Inventario Camilo. Version3.05.6</h4>
+            </div>
+            
+        </div>
+        <div>
+    </div>
+    
+    
+    
+</body>
+</html>
